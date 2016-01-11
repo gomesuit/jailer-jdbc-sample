@@ -14,7 +14,7 @@ public class Test6 {
 	public static void main(String[] args) throws SQLException {
 		BasicDataSource ds = new BasicDataSource();
 		ds.setDriverClassName("jailer.jdbc.JailerDriver");
-		ds.setUrl("jdbc:jailer://192.168.33.11:2181/8067daa2-1c9c-4f3f-84a6-0ae82202334b?project=testproject");
+		ds.setUrl("jdbc:jailer://192.168.33.11:2181/db6812b6-f678-483b-95ad-db4a798a589b?project=testproject");
 		ds.setInitialSize(10);
 		
 		DataSource dataSource = ds;
@@ -23,7 +23,7 @@ public class Test6 {
 		boolean flg = true;
 		while(flg){
 			try {
-				Thread.sleep(10000);
+				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
