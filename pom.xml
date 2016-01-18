@@ -45,7 +45,7 @@
 		<dependency>
 			<groupId>jailer</groupId>
 			<artifactId>jailer-jdbc</artifactId>
-			<version>0.1.4</version>
+			<version>0.1.7</version>
 		</dependency>
 	</dependencies>
 </project>
